@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
-import Footer from './components/Footer';
 import Services from './components/Services';
 
 
 import './App.css';
+import Contact from './components/Contact';
 
 function App() {
     return (
@@ -13,7 +13,7 @@ function App() {
             <Header />
             <Main />
             <Services />
-            <Footer />
+            <Contact/>
         </div>
     );
 }

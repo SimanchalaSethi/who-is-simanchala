@@ -1,0 +1,43 @@
+#contact {
+    text-align: center;
+    padding: 2rem;
+    background-color: #404040; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #1e90ff;
+    font-size: 24px;
+  }
+  
+  .social-links a:hover {
+    color: #4169e1;
+  }
+  
