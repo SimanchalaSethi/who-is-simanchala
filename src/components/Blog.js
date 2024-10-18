@@ -6,8 +6,7 @@ function Blog() {
   const [posts, setPosts] = useState([
     {
       title: 'Efficient Code Management with a Structured Git Workflow',
-      content: `<p>As a Backend Team Lead, managing code effectively is crucial to our success. In this blog, I’ll share our meticulously designed Git workflow that ensures seamless integration and delivery.</p>
-                <p><strong>Branching Strategy:</strong></p>
+      content: `<p><strong>Branching Strategy:</strong></p>
                 <p>- <strong>Main Branches:</strong> We operate with three main branches - dev, rel, and main.</p>
                 <p>- <strong>Feature Branches:</strong> Team members pull from the dev branch and create feature branches based on the specific APIs they are working on.</p>
                 <p><strong>Development Process:</strong></p>
@@ -19,7 +18,6 @@ function Blog() {
                 <p>- <strong>Integration:</strong> Once testing is successful, I merge the changes into the rel branch where frontend and backend are integrated.</p>
                 <p>- <strong>Client Approval:</strong> Our testing team validates the integrated application and seeks client approval.</p>
                 <p>- <strong>Final Merge:</strong> Upon client approval, the code is merged into the main branch, marking it ready for production.</p>`,
-      image: githubFlowImage
     }
   ]);
 
@@ -29,7 +27,6 @@ function Blog() {
       {posts.map((post, index) => (
         <div key={index} className="blog-post">
           <h2>{post.title}</h2>
-          <img src={post.image} alt={post.title} />
           <p dangerouslySetInnerHTML={{ __html: post.content }}></p>
         </div>
       ))}
