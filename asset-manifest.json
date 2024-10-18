@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SimanchalaSethi/who-is-simanchala/static/css/main.784afdeb.css",
+    "main.js": "/SimanchalaSethi/who-is-simanchala/static/js/main.a3fe9759.js",
+    "index.html": "/SimanchalaSethi/who-is-simanchala/index.html",
+    "main.784afdeb.css.map": "/SimanchalaSethi/who-is-simanchala/static/css/main.784afdeb.css.map",
+    "main.a3fe9759.js.map": "/SimanchalaSethi/who-is-simanchala/static/js/main.a3fe9759.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784afdeb.css",
+    "static/js/main.a3fe9759.js"
+  ]
+}
