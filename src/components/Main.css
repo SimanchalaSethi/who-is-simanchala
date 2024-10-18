@@ -1,0 +1,17 @@
+/* src/components/Main.css */
+
+.Main {
+    padding: 2rem;
+}
+
+.Main section {
+    margin-bottom: 2rem;
+}
+
+.project {
+    background-color: #1e90ff; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

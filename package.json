@@ -1,18 +1,29 @@
 {
   "name": "who-is-simanchala",
   "version": "0.1.0",
+  "description": "Personal portfolio by react",
+  "author": {
+    "name": "Simanchala Sethi",
+    "email": "simanchalasethi.dev@gmail.com"
+  },
+  "license": "MIT",
   "private": true,
+  "main": "index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "cross-env": "^7.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.5.0",
+    "web-vitals": "^4.2.3",
+    "who-is-simanchala": "file:"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PORT=4000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
