@@ -54,7 +54,7 @@ function Blog() {
 
   return (
     <div id="blog">
-      <h1>Blog</h1>
+      <h1>Blogs</h1>
       {posts.map((post, index) => (
         <div key={index} className="blog-post">
           <h2>{post.title}</h2>
