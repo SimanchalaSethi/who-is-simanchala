@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/who-is-simanchala/static/css/main.5b8a2072.css",
+    "main.css": "/who-is-simanchala/static/css/main.7c7b6c3b.css",
     "main.js": "/who-is-simanchala/static/js/main.ceb6481e.js",
     "static/media/gitflow.png": "/who-is-simanchala/static/media/gitflow.2b0055c9a6b8693eb258.png",
     "index.html": "/who-is-simanchala/index.html",
-    "main.5b8a2072.css.map": "/who-is-simanchala/static/css/main.5b8a2072.css.map",
+    "main.7c7b6c3b.css.map": "/who-is-simanchala/static/css/main.7c7b6c3b.css.map",
     "main.ceb6481e.js.map": "/who-is-simanchala/static/js/main.ceb6481e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b8a2072.css",
+    "static/css/main.7c7b6c3b.css",
     "static/js/main.ceb6481e.js"
   ]
 }
