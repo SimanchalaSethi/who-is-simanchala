@@ -8,10 +8,38 @@
     margin-bottom: 2rem;
 }
 
-.project {
-    background-color: #1e90ff; 
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Center and space out project cards */
+    gap: 1rem; /* Gap between project cards */
+  }
+  
+  .project {
+    background-color: rgba(4, 42, 45, 0.8);
     padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
+    border-radius: 50%; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    width: 350px; 
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+  }
+  
+  .project a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .project a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
