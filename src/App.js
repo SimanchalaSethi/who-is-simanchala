@@ -6,7 +6,7 @@ import Services from './components/Services';
 
 import './App.css';
 import Contact from './components/Contact';
-import Blog from './components/Blog';
+import Blog from './components/Blog/Blog';
 
 function App() {
     return (

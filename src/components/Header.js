@@ -1,7 +1,6 @@
-// src/components/Header.js
 import React from 'react';
 import './Header.css';
-
+import profilePic from '../assets/i.jpeg';
 function Header() {
     return (
         <header className="Header">
@@ -14,6 +13,9 @@ function Header() {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div className="profile-pic-container">
+                <img src={profilePic} alt="Profile Picture" className="profile-pic" />
+            </div>
         </header>
     );
 }

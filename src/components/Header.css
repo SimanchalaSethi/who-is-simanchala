@@ -1,4 +1,7 @@
 .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgba(51, 51, 51, 0.8);
     color: white;
     padding: 1rem;
@@ -18,4 +21,16 @@
 .Header nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+.profile-pic-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
 }

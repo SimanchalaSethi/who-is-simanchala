@@ -43,6 +43,6 @@ button:hover {
   border-radius: 10px;
   max-width: 600px;
   margin: auto;
-  background-color: rgba(32, 35, 42, 0.9); /* Dark background color with transparency */
-  color: #172f36; /* Bright text color for readability */
+  background-color: rgba(32, 35, 42, 0.9); 
+  color: #172f36; 
 }

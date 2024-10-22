@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './Blog.css';
 
-Modal.setAppElement('#root'); // Replace '#root' with your app's root element if different
+Modal.setAppElement('#root'); 
 
 function Blog() {
   const [posts] = useState([
