@@ -22,10 +22,9 @@ const GreetingPopup = () => {
 
     setGreeting(greetingMessage);
 
-    // Hide the popup after 5 seconds
-    const timer = setTimeout(() => setShow(false), 5000);
+    const timer = setTimeout(() => setShow(false), 3000);
 
-    // Cleanup timer
+
     return () => clearTimeout(timer);
   }, []);
 
