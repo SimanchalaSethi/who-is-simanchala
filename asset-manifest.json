@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/who-is-simanchala/static/css/main.057a83a4.css",
+    "main.css": "/who-is-simanchala/static/css/main.a8a127f6.css",
     "main.js": "/who-is-simanchala/static/js/main.65b69fa0.js",
     "static/media/CustomSolution.png": "/who-is-simanchala/static/media/CustomSolution.15ee68d42a7fac84e637.png",
     "static/media/webdevelopment.png": "/who-is-simanchala/static/media/webdevelopment.5bad8374dd23400fccc8.png",
@@ -8,12 +8,13 @@
     "static/media/APIDevelopment.png": "/who-is-simanchala/static/media/APIDevelopment.ccf4857b81b1b138d581.png",
     "static/media/PaymentIntegration.png": "/who-is-simanchala/static/media/PaymentIntegration.3db2a1942a95efde0457.png",
     "static/media/WebScraping.png": "/who-is-simanchala/static/media/WebScraping.59beeaf8686151490649.png",
+    "static/media/ContactUs.png": "/who-is-simanchala/static/media/ContactUs.134e0c48b4402ee9bc0e.png",
     "index.html": "/who-is-simanchala/index.html",
-    "main.057a83a4.css.map": "/who-is-simanchala/static/css/main.057a83a4.css.map",
+    "main.a8a127f6.css.map": "/who-is-simanchala/static/css/main.a8a127f6.css.map",
     "main.65b69fa0.js.map": "/who-is-simanchala/static/js/main.65b69fa0.js.map"
   },
   "entrypoints": [
-    "static/css/main.057a83a4.css",
+    "static/css/main.a8a127f6.css",
     "static/js/main.65b69fa0.js"
   ]
 }
