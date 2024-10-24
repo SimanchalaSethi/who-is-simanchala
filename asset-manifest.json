@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/who-is-simanchala/static/css/main.a8a127f6.css",
-    "main.js": "/who-is-simanchala/static/js/main.65b69fa0.js",
+    "main.css": "/who-is-simanchala/static/css/main.efd0040f.css",
+    "main.js": "/who-is-simanchala/static/js/main.f788999d.js",
     "static/media/CustomSolution.png": "/who-is-simanchala/static/media/CustomSolution.15ee68d42a7fac84e637.png",
     "static/media/webdevelopment.png": "/who-is-simanchala/static/media/webdevelopment.5bad8374dd23400fccc8.png",
     "static/media/i.jpeg": "/who-is-simanchala/static/media/i.2e0552dd35c78f1ea5ef.jpeg",
@@ -10,11 +10,11 @@
     "static/media/WebScraping.png": "/who-is-simanchala/static/media/WebScraping.59beeaf8686151490649.png",
     "static/media/ContactUs.png": "/who-is-simanchala/static/media/ContactUs.134e0c48b4402ee9bc0e.png",
     "index.html": "/who-is-simanchala/index.html",
-    "main.a8a127f6.css.map": "/who-is-simanchala/static/css/main.a8a127f6.css.map",
-    "main.65b69fa0.js.map": "/who-is-simanchala/static/js/main.65b69fa0.js.map"
+    "main.efd0040f.css.map": "/who-is-simanchala/static/css/main.efd0040f.css.map",
+    "main.f788999d.js.map": "/who-is-simanchala/static/js/main.f788999d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8a127f6.css",
-    "static/js/main.65b69fa0.js"
+    "static/css/main.efd0040f.css",
+    "static/js/main.f788999d.js"
   ]
 }
