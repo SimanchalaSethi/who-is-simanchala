@@ -1,45 +1,70 @@
 /* src/components/Main.css */
 
 .Main {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .Main section {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Center and space out project cards */
-    gap: 1rem; /* Gap between project cards */
-  }
-  
-  .project {
-    background-color: rgba(4, 42, 45, 0.8);
-    padding: 1rem;
-    border-radius: 50%; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 350px; 
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white; 
-  }
-  
-  .project a {
-    color: white;
-    text-decoration: none;
-    margin-top: 10px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5); 
-  }
-  
-  .project a:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Center and space out project cards */
+  gap: 1rem; /* Gap between project cards */
+}
+
+.project {
+  background-color: rgba(4, 42, 45, 0.8);
+  width: 200px;
+  height: 180px; /* Shortened the height */
+  border-radius: 15px; /* Curve edges */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; 
+  position: relative; /* For positioning the content inside */
+  transition: transform 0.3s; /* Animation duration */
+}
+
+.project:hover {
+  transform: rotateX(30deg); /* Rotate back side 30 degrees */
+}
+
+.project-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.project p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.project a {
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.project a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
