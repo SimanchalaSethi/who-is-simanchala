@@ -11,13 +11,13 @@ const GreetingPopup = () => {
     let greetingMessage = '';
 
     if (hours >= 5 && hours < 12) {
-      greetingMessage = 'Good Morning! Welcome to my site. I’m here to provide top-notch services tailored for you.';
+      greetingMessage = 'Good Morning! Welcome to my site.';
     } else if (hours >= 12 && hours < 18) {
-      greetingMessage = 'Good Afternoon! Thanks for stopping by. I’m committed to delivering the best services to you.';
+      greetingMessage = 'Good Afternoon! Welcome to my site.';
     } else if (hours >= 18 && hours < 21) {
-      greetingMessage = 'Good Evening! It’s a pleasure to have you here. How can I assist you today?';
+      greetingMessage = 'Good Evening! Welcome to my site.';
     } else {
-      greetingMessage = 'Good Night! I appreciate your visit. Feel free to explore my offerings.';
+      greetingMessage = 'Good Night! Welcome to my site.';
     }
 
     setGreeting(greetingMessage);

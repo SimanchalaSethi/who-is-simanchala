@@ -151,7 +151,7 @@ function Blog() {
         contentLabel="Blog Post Details"
       >
         {selectedPost && (
-          <div>
+          <div style={{ background: 'linear-gradient(45deg, #0f2862, #091f36, #4f5f76, #9e363a)', padding: '20px', borderRadius: '10px', color: 'white' }}>
             <h2>{selectedPost.title}</h2>
             <div
               dangerouslySetInnerHTML={{ __html: selectedPost.content }}

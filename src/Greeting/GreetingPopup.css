@@ -3,7 +3,7 @@
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(76, 175, 80, 0.8);; 
+    background-color: linear-gradient(45deg,#0f2862, #091f36, #4f5f76,#9e363a);
     padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

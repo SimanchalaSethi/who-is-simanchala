@@ -4,7 +4,7 @@
 }
 
 .blog-post {
-  background-color: #271010;
+  background-color: linear-gradient(45deg,#0f2862, #091f36, #4f5f76,#9e363a);
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 5px;
