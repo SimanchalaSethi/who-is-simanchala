@@ -7,9 +7,11 @@ function Main() {
       <section id="about">
         <h2>About Me</h2>
         <p>
-          I am a software developer with expertise in Node.js, React, MongoDB,
-          Docker, Jenkins, microservices architecture, and AWS. I enjoy building
-          scalable and efficient applications.
+          Experienced Developer with 2 years specializing in JavaScript,
+          Node.js, and Express.js. Proficient in MongoDB, MySQL, Git, Docker,
+          Jenkins, and Socket.IO. Dedicated to creating scalable and efficient
+          web applications with a focus on delivering high-quality user
+          experiences.
         </p>
       </section>
       <section id="projects">
