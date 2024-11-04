@@ -19,6 +19,18 @@ function Main() {
         <div className="projects-container">
           <div className="project">
             <div className="project-content">
+              <h3>Project Management Tool</h3>
+              <a
+                href="https://github.com/SimanchalaSethi/Project-Management-Tool.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on GitHub
+              </a>
+            </div>
+          </div>
+          <div className="project">
+            <div className="project-content">
               <h3>Rating Management in Hotel</h3>
               {/* <p>
                 This project involved developing a comprehensive rating management
