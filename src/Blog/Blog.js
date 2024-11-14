@@ -69,8 +69,7 @@ function Blog() {
 `,
     },
     {
-      title:
-        "Mastering Container Orchestration: A Deep Dive into Docker",
+      title: "Mastering Container Orchestration: A Deep Dive into Docker",
       summary:
         "Examine the intricacies of Docker and how it revolutionizes containerized applications. This post explores key features, best practices, and real-world applications of Docker.",
       content: `<p><strong>Introduction:</strong></p>
@@ -95,8 +94,7 @@ function Blog() {
 `,
     },
     {
-      title:
-        "Mastering Container Orchestration: A Deep Dive into Kubernetes",
+      title: "Mastering Container Orchestration: A Deep Dive into Kubernetes",
       summary:
         "Examine the intricacies of Kubernetes and how it orchestrates containerized applications, covering cluster management, scaling, and best practices.",
       content: `<p><strong>Introduction:</strong></p>
@@ -151,7 +149,16 @@ function Blog() {
         contentLabel="Blog Post Details"
       >
         {selectedPost && (
-          <div style={{ background: 'linear-gradient(45deg, #0f2862, #091f36, #4f5f76)', padding: '10px', borderRadius: '5px', color: 'white' }}>
+          <div
+            style={{
+              background: "linear-gradient(45deg, #0f2862, #091f36, #4f5f76)",
+              padding: "10px",
+              borderRadius: "5px",
+              color: "white",
+              width: "100%" ,
+              margin: "0 auto" ,
+            }}
+          >
             <h2>{selectedPost.title}</h2>
             <div
               dangerouslySetInnerHTML={{ __html: selectedPost.content }}

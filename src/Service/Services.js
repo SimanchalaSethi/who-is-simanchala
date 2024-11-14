@@ -128,7 +128,14 @@ function Services() {
       </div>
       <Modal isOpen={modalIsOpen} onRequestClose={closeModal} contentLabel="Service Details">
         {selectedService && (
-          <div style={{ background: 'linear-gradient(45deg, #0f2862, #091f36, #4f5f76)', padding: '20px', borderRadius: '10px', color: 'white' }}>
+          <div  style={{
+            background: "linear-gradient(45deg, #0f2862, #091f36, #4f5f76)",
+            padding: "10px",
+            borderRadius: "5px",
+            color: "white",
+            width: "100%" ,
+            margin: "0 auto" ,
+          }}>
             <h2>{selectedService.title}</h2>
             <div dangerouslySetInnerHTML={{ __html: selectedService.content }}></div>
             <button onClick={closeModal}>Close</button>
