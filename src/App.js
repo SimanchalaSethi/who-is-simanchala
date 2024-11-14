@@ -1,22 +1,25 @@
-import React from 'react';
-import Header from './components/Header';
-import Main from './components/Main';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Contact from "./Contact/Contact";
+import Blog from "./Blog/Blog";
+import Services from "./Service/Services";
 import './App.css';
-import Contact from './Contact/Contact';
-import Blog from './Blog/Blog';
-import GreetingPopup from './Greeting/GreetingPopup';
-import Services from './Service/Services';
 
 function App() {
     return (
-        <div className="App">
-            <GreetingPopup/>
-            <Header />
-            <Main />
-            <Services/>
-            <Blog/>
-            <Contact/>
-        </div>
+        <Router>
+            <div className="App">
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Main />} />
+                    <Route path="/services" element={<Services />} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+            </div>
+        </Router>
     );
 }
 
