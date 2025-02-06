@@ -23,26 +23,26 @@
 .services-list div i {
     font-size: 50px;
     margin-bottom: 20px;
-    color: #fff; /* White icon color for contrast */
+    color: #fff; 
 }
 
 .services-list div h2 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 10px;
-    color: #fff; /* White text color for contrast */
+    color: #fff; 
 }
 
 .services-list div a {
     text-decoration: none;
-    color: #fff; /* White text color for contrast */
+    color: #fff; 
     font-size: 12px;
     margin-top: 15px;
     display: inline-block;
 }
 
 .services-list div.service:hover {
-    background: #4169e1; /* Slightly darker blue on hover */
+    background: #4169e1; 
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }

@@ -8,30 +8,36 @@
   margin-bottom: 2rem;
 }
 
+.typing-text {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap; /* Preserve whitespace to handle line breaks properly */
+}
+
+/* Projects CSS remains unchanged */
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Center and space out project cards */
-  gap: 1rem; /* Gap between project cards */
+  justify-content: space-around;
+  gap: 1rem;
 }
 
 .project {
   background-color: rgba(4, 42, 45, 0.8);
   width: 200px;
-  height: 180px; /* Shortened the height */
-  border-radius: 15px; /* Curve edges */
+  height: 180px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white; 
-  position: relative; /* For positioning the content inside */
-  transition: transform 0.3s; /* Animation duration */
+  color: white;
+  position: relative;
+  transition: transform 0.3s;
 }
 
 .project:hover {
-  transform: rotateX(30deg); /* Rotate back side 30 degrees */
+  transform: rotateX(30deg);
 }
 
 .project-content {
@@ -62,7 +68,7 @@
   margin-top: 10px;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .project a:hover {
