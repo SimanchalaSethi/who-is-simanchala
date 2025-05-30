@@ -12,16 +12,17 @@ const styles = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    padding: "0 20px",
+    padding: "0 16px",
   },
   name: {
-    fontSize: "2.8rem",
+    fontSize: "2.5rem",
     fontWeight: "700",
     letterSpacing: "2px",
     color: accentColor,
     marginBottom: "0.5em",
     marginTop: "0.5em",
     textShadow: "0 2px 12px rgba(0,188,212,0.15)",
+    textAlign: "center",
   },
   card: {
     background: "#181818",
@@ -30,31 +31,33 @@ const styles = {
     maxWidth: "420px",
     width: "100%",
     margin: "1.2em 0",
-    padding: "2em 2em 1.5em 2em",
+    padding: "1.3em 1em 1em 1em",
     textAlign: "center",
     borderTop: `3px solid ${accentColor}`,
+    boxSizing: "border-box",
   },
   heading: {
     color: accentColor,
-    fontSize: "1.3em",
-    marginBottom: "0.7em",
+    fontSize: "1.15em",
+    marginBottom: "0.5em",
     letterSpacing: "1px",
   },
   socialLinks: {
     display: "flex",
     justifyContent: "center",
-    gap: "1.5em",
+    gap: "1.2em",
     marginTop: "1em",
     flexWrap: "wrap",
   },
   link: {
     color: accentColor,
     textDecoration: "none",
-    fontSize: "1.1em",
+    fontSize: "1.05em",
     fontWeight: "500",
     padding: "6px 12px",
     borderRadius: "6px",
     transition: "background 0.2s, color 0.2s",
+    display: "inline-block",
   },
   linkHover: {
     background: accentColor,
@@ -83,50 +86,60 @@ function SocialLink({ href, children }) {
 
 function App() {
   return (
-    <div style={styles.body}>
-      <div style={styles.name}>Simanchala Sethi</div>
-
-      <section style={styles.card}>
-        <h2 style={styles.heading}>About</h2>
-        <p>
-          Hello! I'm Simanchala, a backend specialist who loves turning complex
-          ideas into robust, scalable systems.
-          <br />
-          <br />
-          My expertise lies in designing and building efficient APIs,
-          architecting reliable backend infrastructures, and deploying modern
-          web applications. I enjoy solving real-world problems with clean code
-          and thoughtful solutions.
-        </p>
-      </section>
-
-      <section style={styles.card}>
-        <h2 style={styles.heading}>Contact</h2>
-        <p>
-          Looking for someone to <b>deploy your project</b>, build a{" "}
-          <b>complete backend solution</b>, or design a solid{" "}
-          <b>system architecture</b>?<br />
-          <br />
-          Let's work together! Reach out for freelancing or collaboration at:{" "}
-          <a href="mailto:simanchalasethi.dev@gmail.com" style={styles.link}>
-            simanchalasethi.dev@gmail.com
-          </a>
-        </p>
-      </section>
-
-      <section style={styles.card}>
-        <h2 style={styles.heading}>Connect</h2>
-        <div style={styles.socialLinks}>
-          <SocialLink href="https://github.com/SimanchalaSethi">
-            GitHub
-          </SocialLink>
-          <SocialLink href="https://www.linkedin.com/in/simanchala-sethi-672a5b166/">
-            LinkedIn
-          </SocialLink>
-          <SocialLink href="https://dev.to/simanchala_sethi">DEV</SocialLink>
+    <>
+      <style>
+        {`
+          @media (max-width: 600px) {
+            .responsive-name {
+              font-size: 1.5rem !important;
+            }
+            .responsive-card {
+              padding: 1em 0.5em 0.7em 0.5em !important;
+              max-width: 98vw !important;
+            }
+            .responsive-social {
+              gap: 0.7em !important;
+            }
+          }
+        `}
+      </style>
+      <div style={styles.body}>
+        <div style={styles.name} className="responsive-name">
+          Simanchala Sethi
         </div>
-      </section>
-    </div>
+
+        <section style={styles.card} className="responsive-card">
+          <h2 style={styles.heading}>About</h2>
+          <p>
+            Backend developer specializing in API design, deployment, and system
+            architecture.
+          </p>
+        </section>
+
+        <section style={styles.card} className="responsive-card">
+          <h2 style={styles.heading}>Contact</h2>
+          <p>
+            For freelancing or collaboration, email:{" "}
+            <a href="mailto:simanchalasethi.dev@gmail.com" style={styles.link}>
+              simanchalasethi.dev@gmail.com
+            </a>
+          </p>
+        </section>
+
+        <section style={styles.card} className="responsive-card">
+          <h2 style={styles.heading}>Connect</h2>
+          <div style={styles.socialLinks} className="responsive-social">
+            <SocialLink href="https://github.com/SimanchalaSethi">
+              GitHub
+            </SocialLink>
+            <SocialLink href="https://www.linkedin.com/in/simanchala-sethi-672a5b166/">
+              LinkedIn
+            </SocialLink>
+            <SocialLink href="https://dev.to/simanchala_sethi">DEV</SocialLink>
+          </div>
+        </section>
+      </div>
+    </>
   );
 }
 
